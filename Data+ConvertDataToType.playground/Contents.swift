@@ -4,7 +4,7 @@ extension Data {
     
     // Updated for Swift 3
     func scanValue<T>(start: Int, length: Int) -> T {
-        return self.subdata(in: start..<start+length).withUnsafeBytes { $0.pointee }
+        return subdata(in: start..<start+length).withUnsafeBytes { $0.pointee }
     }
     
     // Swift 2 (deprecated) - For comparison

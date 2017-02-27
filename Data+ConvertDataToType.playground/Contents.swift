@@ -1,3 +1,6 @@
+// Data+ConvertDataToType
+// Find more useful Swift extensions at https://github.com/jakezeal/SwiftExtensions
+
 import UIKit
 
 extension Data {
@@ -7,7 +10,7 @@ extension Data {
         return subdata(in: start..<start+length).withUnsafeBytes { $0.pointee }
     }
     
-    // Swift 2 (deprecated) - For comparison
+    // Swift 2.3 (deprecated)
     /*
      func convertNSDataToType<T>() -> T {
      var valueOfType: T!

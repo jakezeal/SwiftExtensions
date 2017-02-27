@@ -1,4 +1,6 @@
 // UIResponder+Utilities
+// Find more useful Swift extensions at https://github.com/jakezeal/SwiftExtensions
+
 
 import UIKit
 

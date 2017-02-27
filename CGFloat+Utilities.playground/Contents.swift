@@ -1,5 +1,6 @@
 // CGFloat+Utilities
-// Find more useful extensions at https://github.com/jakezeal/ReusableSwiftExtensions
+// Find more useful Swift extensions at https://github.com/jakezeal/SwiftExtensions
+
 
 import CoreGraphics
 
